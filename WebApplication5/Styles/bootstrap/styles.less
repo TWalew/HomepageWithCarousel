@@ -1,0 +1,89 @@
+﻿// Bootstrap Library
+@import 'less/bootstrap.less';
+
+// Colors
+@import 'colors.less';
+
+// Common Styles
+// TODO: Add default bootstrap theme styles: buttons, panels,..
+
+
+// Pages Styles
+// TODO: Add Pages Styles
+#myCarousel {
+    margin-top: 51px;
+
+    .carousel-control {
+        .glyphicon-chevron-right:before {
+            content: none;
+        }
+    }
+}
+
+.navbar {
+    .dropdown {
+        position: relative;
+        display: inline-block;
+    }
+
+    .dropdown-content {
+        display: none;
+        position: absolute;
+        background-color: #222;
+        min-width: 160px;
+        box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        z-index: 1;
+    }
+
+    .dropdown-content a {
+        color: #9d9d9d;
+        padding: 12px 16px;
+        text-decoration: none;
+        display: block;
+    }
+
+
+    .dropdown-content a:hover {
+        background-color: #222;
+        color: #fff;
+    }
+
+    .dropdown:hover .dropdown-content {
+        display: block;
+    }
+
+    li {
+        float: left;
+        display: inline;
+        list-style-type: none;
+    }
+
+    .nav-second {
+        float: right;
+        list-style-type: none;
+        margin-top: 7px;
+        padding: 0;
+
+        li {
+            margin: 0px 10px
+        }
+
+        .instagram a {
+            background: url('../Images/instagram-icon.png') no-repeat;
+            display: block;
+            width: 35px;
+            height: 33px;
+            overflow: hidden;
+            line-height: 9999px;
+        }
+
+        .fb a {
+            background: url('../Images/fb-icon.png') no-repeat;
+            display: block;
+            width: 35px;
+            height: 33px;
+            overflow: hidden;
+            line-height: 9999px;
+        }
+    }
+}

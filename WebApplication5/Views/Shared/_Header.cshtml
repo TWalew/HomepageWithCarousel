@@ -1,0 +1,40 @@
+﻿<div class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container">
+        <div class="navbar-header">
+            <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+            </button>
+            <a href="/Home/Index">
+                <img src="~/Styles/Images/Artboard.png" />
+            </a>
+        </div>
+        <div class="navbar-collapse collapse">
+            <ul class="nav navbar-nav">
+                <li>@Html.ActionLink("ЗА НАС", "Index", "Home")</li>
+                <li class="dropdown">
+                    <a href="#">КАТАЛОГ</a>
+                    <div class="dropdown-content">
+                        <a href="#">Есен/зима 17/18</a>
+                        <a href="#">пролет/лято 2017</a>
+                        <a href="#">Making of...</a>
+                    </div>
+                </li>
+                <li>@Html.ActionLink("УШИТО ПО МЯРКА", "Index", "Home")</li>
+                <li>@Html.ActionLink("КОРПОРАТИВНИ КЛИЕНТИ", "Index", "Home")</li>
+                <li>@Html.ActionLink("КАРИЕРИ", "Index", "Home")</li>
+                <li>@Html.ActionLink("МАГАЗИНИ", "Index", "Home")</li>
+                <li>@Html.ActionLink("КОНТАКТИ", "Index", "Home")</li>
+            </ul>
+            <ul class="nav-second">
+
+                <li class="instagram"><a target="_blank" href="https://www.instagram.com/andrewsfashionbg/" title="Instagram">Instagram</a></li>
+                <li class="fb"><a target="_blank" href="http://www.facebook.com/AndrewsFashionStudio" title="facebook">facebook</a></li>
+                <li class="lang">
+                    <a href="/en/corporate-clients.html" title="EN">EN</a> <a href="/tr/corporate-clients.html" title="TR">TR</a>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>
